@@ -2,7 +2,7 @@
 body {
   background-color: #fff;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 1.625;
   margin: 0;
@@ -187,6 +187,9 @@ img{
   }
 }
 
+.project-body {
+    padding-top: 20px;
+}
 /* Change the color of links on hover */
 .nav-bar-nav>li>a:hover {
     color: #8b9dc3 !important;
