@@ -1,4 +1,3 @@
-
 body {
   background-color: #fff;
   font-family: 'Cormorant Garamond', serif;
@@ -8,34 +7,42 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
+
 @media (min-width: 768px) {
   ul {
     width: 100%;
   }
 }
+
 h1 {
   font-size: 5rem;
   margin-bottom: 0px;
   font-weight: 500;
 }
+
 h3 {
-  margin-top:0px;
+  margin-top: 0px;
 }
-img{
+
+img {
   max-width: 100%;
   padding-left: 5%;
   padding-right: 5%;
 }
-.navbar-default .navbar-toggle:focus{
-    background-color: transparent;
+
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
 }
-.navbar-default .navbar-toggle:hover{
-    background-color: #ddd;
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #ddd;
 }
+
 #profile-picture {
-  max-height:180px;
+  max-height: 180px;
   padding-bottom: 10px;
 }
+
 #download-resume {
   background-color: #000;
   border-radius: 0;
@@ -51,29 +58,36 @@ img{
   position: relative;
   text-decoration: none;
 }
+
 .picture-row {
   display: inline-block;
   text-align: center;
   padding-right: 0px;
 }
-#contact{
+
+#contact {
   padding-top: 10px;
 }
+
 .navbar {
   border: none;
 }
-.fa-github{
+
+.fa-github {
   color: black;
 }
+
 #novacoast {
   color: 'orange';
 }
+
 #ES {
-    width: 90%;
-    height: 40%;
-    padding-left: 25%;
-    padding-right: 15%;
+  width: 90%;
+  height: 40%;
+  padding-left: 25%;
+  padding-right: 15%;
 }
+
 .content-img {
   padding-left: 15px;
   padding-bottom: 10px;
@@ -81,35 +95,40 @@ img{
   max-height: 100px;
   float: left;
 }
+
 .sub-content-right-img {
-    width: 100%;
-    height: 100%;
-    float: right;
+  width: 100%;
+  height: 100%;
+  float: right;
 }
+
 .sub-content-left-img {
-    width: 100%;
-    height: 100%;
-    float: left;
+  width: 100%;
+  height: 100%;
+  float: left;
 }
+
 .sub-content {
-    padding-right: 0%;
+  padding-right: 0%;
 }
 
 .row-sub-content {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .sub-content-single {
-    width: 35%;
-    height: 35%;
+  width: 35%;
+  height: 35%;
 }
+
 .header-img {
-    max-width: 80%;
-    max-height: 80%;
+  max-width: 80%;
+  max-height: 80%;
 }
+
 .header-img-sb {
-    max-width: 40%;
-    max-height: 40%;
+  max-width: 40%;
+  max-height: 40%;
 }
 
 @media (min-width: 768px) {
@@ -118,6 +137,7 @@ img{
     border-right: none;
     border-left: none;
   }
+
   .content-img {
     max-width: 160px;
     max-height: 160px;
@@ -130,6 +150,7 @@ img{
   padding-top: 30px;
   text-align: center;
 }
+
 .content-header {
   padding-bottom: 5px;
   padding-top: 25px;
@@ -151,20 +172,24 @@ img{
 }
 
 .navbar-default {
-    background-color: white;
+  background-color: white;
 }
+
 .container-fluid>.navbar-header {
   margin: 0px;
 }
+
 .navbar-header {
   width: 100%;
   text-align: center;
 }
+
 .row-main {
   margin-top: 10px;
 
 }
-.row-paragraph{
+
+.row-paragraph {
   margin-bottom: 20px;
 }
 
@@ -173,7 +198,7 @@ img{
   position: relative;
   float: none;
   vertical-align: top;
-  margin-right:0px;
+  margin-right: 0px;
 }
 
 @media (min-width: 768px) {
@@ -181,19 +206,22 @@ img{
     width: 33.33%;
     font-size: 2.5rem;
   }
+
   .nav-item a {
     text-align: center;
   }
 }
 
 .project-body {
-    padding-top: 20px;
+  padding-top: 20px;
 }
+
 /* Change the color of links on hover */
 .nav-bar-nav>li>a:hover {
-    color: #8b9dc3 !important;
-    font-weight: 800;
+  color: #8b9dc3 !important;
+  font-weight: 800;
 }
+
 #download-resume:hover {
- background-color: #8b9dc3	;
+  background-color: #8b9dc3;
 }
