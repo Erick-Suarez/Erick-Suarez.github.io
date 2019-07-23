@@ -9,6 +9,17 @@
   <link href="Style\fonts\font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
   <link href="Style\css\Main.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144358798-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144358798-1');
+</script>
+
 </head>
 
 <body>
@@ -52,11 +63,12 @@
       <div class="container-fluid" id="navbar-top">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-content" id="navbar-button">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-content"
+            id="navbar-button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -114,53 +126,46 @@
         </center>
       </header>
       <div class="row">
-          <div class="row">
-              <div class="col-xs-4"></div>
-              <div class="col-xs-4">
-                <img class="content-img" src="Style/art/novacoast.png">
-              </div>
-              <div class="col-xs-4"></div>
+        <div class="row">
+          <div class="col-xs-4"></div>
+          <div class="col-xs-4">
+            <img class="content-img" src="Style/art/novacoast.png">
           </div>
-          <div class="row project-body">
-              <div class="col-xs-1"></div>
-              <div class="col-xs-10">
-                <p>
-                  <b>Position:</b>
-                  <ul>
-                    <li>Developer Intern</li>
-                  </ul>
-                  <b>Duration:</b>
-                  <ul>
-                    <li>June 2017-Present</ul>
-                  </li>
-                  <b>Description:</b>
-                  <ul>
-                    <li>
-                      Reverse-engineered mockups, utilizing jQuery, Ajax, and bootstrap to provide dynamic, interactive, and responsive user interfaces for all display sizes.
-                    </li>
-                    <li>
-                        Implemented numerous web service requests in Go Lang to retrieve/send data from databases and API’s
-                    </li>
-                    <li>
-                      Built Restful API, which allows application to interact with the backend
-                    </li>
-                    <li>
-                      Automated and centralized tedious sales processes through a secure web application, which increased productivity by about 15%. Using numerous API’s such as BOX, DocuSign, and our own Restful API.
-                    </li>
-                    <li>
-                      Made security assessments to prevent against attacks such as SQL Injection and XSS
-                    </li>
-                    <li>
-                      Made a database management and visualization application.
-                    </li>
-                    <li>
-                      Maintained and made improvements to an event manager restful API for All Hands, that manages things such as attendees, talks/sections, and their attendance.
-                    </li>
-                  </ul>
-                </p>
-              </div>
-              <div class="col-xs-1"></div>
+          <div class="col-xs-4"></div>
+        </div>
+        <div class="row project-body">
+          <div class="col-xs-1"></div>
+          <div class="col-xs-10">
+            <p>
+              <b>Position:</b>
+              <ul>
+                <li>Developer Intern</li>
+              </ul>
+              <b>Duration:</b>
+              <ul>
+                <li>June 2017-Present
+              </ul>
+              </li>
+              <b>Description:</b>
+              <ul>
+                <li>
+                  In a few months learned Golang and RESTful API basics, in a team of two to implement a workflow
+                  automation project to meet feature deadlines.
+                </li>
+                <li>
+                  Added infrastructure change to speed up base contract modifications by 90%. </li>
+                <li>
+                  In a few weeks learned SQL to meet deadline for an event, working in a team of 4, implemented a Restful API and database manipulation interface as part of an application architecture, and as a result, it has become an essential tool for company events reducing event and attendee creation/management time. </li>
+                <li>
+                  Learned about and used Asterisk VoIP APIs to design and build an internal conference tool by implementing an interface to perform useful tasks, which led to a more pleasurable conference call experiences company wide. </li>
+                <li>
+                  Took on challenge of working on a strict-deadline customer facing project in a team of 3, learning how to use D3 to create complex visualizations from customer data, resulting in a successful public product release.
+                </li>
+              </ul>
+            </p>
           </div>
+          <div class="col-xs-1"></div>
+        </div>
       </div>
 
       <header class="content-header">
@@ -172,26 +177,25 @@
       <div class="row">
         <div class="col-xs-1"></div>
         <div class="col-xs-5">
-          <h4><b>Day-To-Day Comfort</b></h4>
+          <h4><b>Most Experience</b></h4>
           <ul>
-            <li>C++</li>
+            <li>Go Lang</li>
+            <li>Python</li>
             <li>Java</li>
-            <li>JavaScript/jQuery</li>
-            <li>HTML/CSS</li>
+            <li>C++</li>
+            <li>Version Control (GIT)</li>
+            <li>Docker</li>
           </ul>
         </div>
         <div class="col-xs-5">
           <h4><b>Experience With</b></h4>
           <ul>
-            <li>Go Lang</li>
-            <li>Python</li>
             <li>C#</li>
+            <li>C</li>
             <li>SQL</li>
             <li>MongoDB</li>
             <li>Firebase</li>
             <li>Unity</li>
-            <li>Docker</li>
-            <li>Version Control (GIT)</li>
             <li>Bootstrap</li>
             <li>Mobile First Thinking</li>
           </ul>
@@ -202,7 +206,8 @@
     <!-- resume -->
 
     <div class="row-main">
-      <center><a id="download-resume" type="button" href="Documents/Resume-web.pdf" target="_blank" class="btn btn-default">Download Resume</a>
+      <center><a id="download-resume" type="button" href="Documents/resume.pdf" target="_blank"
+          class="btn btn-default">Download Resume</a>
       </center>
     </div>
   </div>
@@ -211,7 +216,7 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="javascript/bootstrap.min.js"></script>
+  <script src="JavaScript/bootstrap.min.js"></script>
   <!--<script type="text/javascript" src="javascript/main.js">-->
   </script>
 </body>
